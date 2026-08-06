@@ -5,5 +5,5 @@ import react from "@vitejs/plugin-react";
 // set base to "/<repo>/". For Vercel/Netlify (custom domain or root), leave as "/".
 export default defineConfig({
   plugins: [react()],
-  base: "/project-demo-pos-system/",
+  base: "/project-demo-pos-system/bistro-pos/",
 });
