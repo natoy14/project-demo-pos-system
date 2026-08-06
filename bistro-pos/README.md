@@ -24,7 +24,7 @@ git init
 git add .
 git commit -m "Bistro POS demo"
 git branch -M main
-git remote add origin https://github.com/<your-username>/bistro-pos.git
+git remote add origin https://github.com/<your-username>/project-demo-pos-system.git
 git push -u origin main
 ```
 
@@ -37,9 +37,9 @@ You have three easy options — pick one.
 1. Push to GitHub (above).
 2. In your repo: **Settings → Pages → Build and deployment → Source → GitHub Actions**.
 3. Push to `main` (or re-run the "Deploy to GitHub Pages" action under the **Actions** tab).
-4. Your app will be live at `https://<your-username>.github.io/bistro-pos/`.
+4. Your app will be live at `https://<your-username>.github.io/project-demo-pos-system/`.
 
-> Note: `vite.config.js` sets `base: "/bistro-pos/"` to match GitHub Pages'
+> Note: `vite.config.js` sets `base: "/project-demo-pos-system/"` to match GitHub Pages'
 > subpath. If you rename the repo, update that value to match
 > (`/your-repo-name/`).
 
